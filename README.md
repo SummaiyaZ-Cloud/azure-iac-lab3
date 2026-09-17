@@ -123,7 +123,15 @@ az resource list \
 ## Azure Policy and Troubleshooting
 
 During deployment, I encountered several real-world Azure configuration and policy issues.
+### Policy Enforcement Evidence
 
+Azure Policy initially blocked the deployment because required governance conditions were not satisfied.
+
+![CostCenter Policy Enforcement](costcenter-policy-enforcement.png)
+
+After updating the configuration to comply with the required policies, the deployment completed successfully.
+
+![Policy Compliant Deployment](policy-compliant-validation.png)
 ### VM Size Policy
 
 The subscription restricted which VM SKUs could be deployed.
