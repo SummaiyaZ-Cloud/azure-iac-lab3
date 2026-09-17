@@ -25,7 +25,37 @@ The environment includes:
 - 1 Network Interface
 - 1 Standard Public IP
 - Automated VM shutdown at **7:00 PM Eastern Time**
+## Project Screenshots
 
+### Deployed Azure Resources
+
+The completed deployment includes the Storage Account, Public IP, Virtual Network, Network Interface, Linux VM, managed disk, and automated shutdown schedule.
+
+![Deployed Azure Resources](06-deployed-resources.png)
+
+### Virtual Network and Subnets
+
+The virtual network contains separate web and application subnets with successful provisioning.
+
+![Virtual Network and Subnets](07-vnet-subnets.png)
+
+### Storage Account and Blob Containers
+
+The Storage Account contains two private Blob containers, `data` and `backups`.
+
+![Storage Containers](08-storage-containers.png)
+
+### Linux Virtual Machine
+
+The Ubuntu VM was successfully deployed in East US and connected to the `web-subnet`.
+
+![Virtual Machine Overview](09-vm-overview.png)
+
+### Automated VM Shutdown
+
+Auto-shutdown is enabled for 7:00 PM Eastern Time to help control lab costs.
+
+![VM Auto-Shutdown](10-vm-auto-shutdown.png)
 ## Technologies Used
 
 - Microsoft Azure
