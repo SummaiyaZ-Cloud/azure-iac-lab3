@@ -196,14 +196,4 @@ This project strengthened my understanding of:
 - Troubleshooting failed cloud deployments
 - Automated VM shutdown for cost management
 
-## Interview Talking Point
-
-In this project, I used Azure Bicep and the Azure CLI to deploy a complete Azure environment rather than manually provisioning resources through the portal.
-
-The environment included networking, two subnets, Azure Storage with private Blob containers, an Ubuntu virtual machine, networking components, and an automated shutdown schedule.
-
-One of the most valuable parts of the project was troubleshooting Azure Policy restrictions. My subscription required a specific VM SKU and a `CostCenter` resource tag, and it also prevented the Basic Public IP configuration I initially attempted to deploy.
-
-I reviewed the deployment errors, modified the Bicep configuration to comply with the policies, validated the template again, and successfully deployed the environment.
-
-This gave me practical experience not only with Infrastructure as Code, but also with diagnosing and resolving deployment issues in an Azure environment.
+de, but also with diagnosing and resolving deployment issues in an Azure environment.
