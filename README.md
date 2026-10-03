@@ -179,7 +179,7 @@ This prevents credentials from being stored directly in the GitHub repository.
 
 The storage containers are also configured with private access.
 
-## What I Learned
+## Skills Demonstrated
 
 This project strengthened my understanding of:
 
